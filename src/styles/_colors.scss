@@ -1,0 +1,145 @@
+// primary colors
+$red:    #E3404D; // hsla(355, 74%, 57%, 1)
+$blue:   #49AED0; // hsl(195, 59%, 55%)
+$green:  #00A362; // hsl(156, 100%, 32%)
+$orange: #F28D27; // hsl(32, 83%, 56%)
+$yellow: #F5D847; // hsl(50, 90%, 62%)
+
+// shades
+$black:      #111822; // hsl(215,32%,10%)
+$carbon:     #222C3A; // hsl(215,26%,18%)
+$charcoal:   #354050; // hsl(215,20%,26%)
+$pebble:     #79879A; // hsl(215,14%,54%)
+$gray:       #A2ABB9; // hsl(215,14%,68%)
+$cloud:      #D0D5DC; // hsl(215,14%,84%)
+$fog:        #F0F2F5; // hsl(215,20%,95%)
+$snow:       #F9FAFB; // hsl(215,26%,98%)
+$white:      #FFFFFF; // hsl(215,32%,100%)
+
+// social colors
+$facebook: #3b5998;
+$twitter: #00b6f1;
+$googleplus: #df4a32 ;
+$linkedin: #007bb6 ;
+$pinterest: #cb2027;
+
+$applepay: #111823;
+$google: #427FED;
+
+// background color utilities
+.bg-light-red {
+  background: tint($red, 10%) !important;
+}
+.bg-red {
+  background: $red !important;
+}
+.bg-dark-red {
+  background: shade($red, 12%) !important;
+}
+.bg-blue {
+  background: $blue !important;
+}
+.bg-green {
+  background: $green !important;
+}
+.bg-orange {
+  background: $orange !important;
+}
+.bg-yellow {
+  background: $yellow !important;
+}
+.bg-black {
+  background: $black !important;
+}
+.bg-carbon {
+  background: $carbon !important;
+}
+.bg-charcoal {
+  background: $charcoal !important;
+}
+.bg-pebble {
+  background: $pebble !important;
+}
+.bg-gray {
+  background: $gray !important;
+}
+.bg-cloud {
+  background: $cloud !important;
+}
+.bg-fog {
+  background: $fog !important;
+}
+.bg-snow {
+  background: $snow !important;
+}
+.bg-white {
+  background: $white !important;
+}
+.bg-facebook {
+  background: $facebook !important;
+  border-color: $facebook !important; // remove at some point
+}
+.bg-twitter {
+  background: $twitter !important;
+  border-color: $twitter !important; // remove at some point
+}
+
+.bg-transparent {
+  background: transparent !important;
+}
+
+// text color utilities
+.text-red {
+  color: $red !important;
+}
+.text-blue {
+  color: $blue !important;
+}
+.text-green {
+  color: $green !important;
+}
+.text-orange {
+  color: $orange !important;
+}
+.text-yellow {
+  color: $yellow !important;
+}
+.text-black {
+  color: $black !important;
+}
+.text-carbon {
+  color: $carbon !important;
+}
+.text-charcoal {
+  color: $charcoal !important;
+}
+.text-pebble {
+  color: $pebble !important;
+}
+.text-gray {
+  color: $gray !important;
+}
+.text-cloud {
+  color: $cloud !important;
+}
+.text-fog {
+  color: $fog !important;
+}
+.text-snow {
+  color: $snow !important;
+}
+.text-white {
+  color: $white !important;
+}
+.text-success {
+  color: $green !important;
+}
+.text-info {
+  color: darken(saturate($blue, 5%), 5%) !important;
+}
+.text-warning {
+  color: lighten(desaturate($orange, 10%), 5%) !important;
+}
+.text-danger {
+  color: lighten(desaturate($red, 10%), 5%) !important;
+}
