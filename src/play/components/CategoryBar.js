@@ -15,7 +15,7 @@ import './CategoryBar.css';
 class CategoryBar extends Component {
   render() {
     return (
-      <div className="bs-sm">
+      <div className="bs-sm" style={{marginBottom: "3px"}}>
         <div className="CategoryBar container-fluid bg-white px-4 fs-xs" style={{overflow: "hidden", overflowY: "visible", maxWidth: "100%"}}>
           <NavLink to="/play/category" className="n-link">
             <span className=""><FaTh className="mr-2 fs-13"></FaTh>All Categories</span>

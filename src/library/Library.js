@@ -13,9 +13,9 @@ class Library extends Component {
             <div className="container p-5">
               <Navbar/>
               <Content/>
-              {/* <Switch>
-                <Route path={`${match.url}/content`} component={Content} />
-              </Switch> */}
+              <Switch>
+                <Route path="/library" component={Content} />
+              </Switch>
             </div>
           </div>
         </div>

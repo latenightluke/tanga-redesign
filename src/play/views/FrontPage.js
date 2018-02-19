@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 
 import Section from '../views/Section';
@@ -15,10 +14,6 @@ import ChannelHeaderTwo from '../../assets/channel-header-2.png';
 import './FrontPage.css';
 
 class FrontPage extends Component {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       <div>

@@ -1,21 +1,16 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-
-import ProductCard from '../components/ProductCard';
 
 import './ProductPage.css';
 
-class ProductPage extends Component {
-  constructor() {
-    super()
-  }
+import FaStar from 'react-icons/lib/fa/star';
 
+class ProductPage extends Component {
   render() {
     return (
-      <div className="ProductPage p-3 p-md-5">
-        <ol className="breadcrumb py-2 px-3 mb-5 bg-fog">
-          <li className="breadcrumb-item"><a href="#">Electronics</a></li>
-          <li className="breadcrumb-item"><a href="#">Camera & Photo</a></li>
+      <div className="ProductPage bg-white p-3 p-md-5">
+        <ol className="breadcrumb py-2 px-3 mb-5 bg-snow">
+          <li className="breadcrumb-item"><a href="">Electronics</a></li>
+          <li className="breadcrumb-item"><a href="">Camera & Photo</a></li>
           <li className="breadcrumb-item active">Camera Drones</li>
         </ol>
         <div className="row">
@@ -30,16 +25,16 @@ class ProductPage extends Component {
             <img src="https://tanga3.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2F91357a09dda6.jpeg?ixlib=rails-2.1.1&w=1270&h=1270&auto=format%2Ccompress&cs=srgb&s=97a76e5018c3d6dec978be55362fa5e9" className="img-fluid" alt=""/>
           </div>
           <div className="col-1"></div>
-          <div className="col-4">
+          <div className="col-3">
             <h4 className="text-charcoal fw-600 mb-0">Parrot Rolling Spider Helicopter with HD Camera - Plus Free Express Shipping</h4>
             <p className="mb-4">
               <div className="text-gold fs-14 d-inline-block">
-                <i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i><i className="fa fa-star"></i>
+                <FaStar className="text-yellow" /><FaStar className="text-yellow" /><FaStar className="text-yellow" /><FaStar className="text-yellow" /><FaStar className="text-yellow" />
               </div>
-              <a href="" className="ml-2 text-gray">1,254 Reviews</a>
+              <a href="" className="ml-2 text-gray">(1,254 reviews)</a>
             </p>
             <div>
-              <h3 className="text-red d-inline-block mb-4">$19.99</h3><span className="text-gray fs-16 ml-1 mb-0 d-inline-block"><s>$34.99</s></span>
+              <h3 className="text-red d-inline-block mb-4">$19.99</h3><span className="text-gray fs-xs ml-1 mb-0 d-inline-block fw-regular"><s>$34.99</s></span>
             </div>
             <div className="d-block mb-4">
               <label htmlFor="" className="mb-0">Quantity</label>

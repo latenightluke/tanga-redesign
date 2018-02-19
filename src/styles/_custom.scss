@@ -9,3 +9,44 @@
     color: $white !important;
   }
 }
+
+.breadcrumb {
+  background: none;
+  border-radius: 3px;
+  border: 2px solid $fog;
+  .breadcrumb-item {
+    color: $gray;
+    a {
+      &:hover {
+        border-bottom: 2px solid $cloud;
+        color: $pebble;
+      }
+      &:active {
+        color: $charcoal;
+        border-bottom: 2px solid $red;
+      }
+    }
+    &.active {
+      color: $charcoal;
+    }
+    &:first-of-type {
+      padding-top: 3px;
+    }
+  }
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: $cloud;
+    content: ">";
+  }
+}
+
+.img-thumbnail {
+  border-radius: 3px;
+  border: 2px solid $fog;
+  cursor: pointer;
+  &:hover {
+    border: 2px solid $cloud;
+  }
+  &:active, &.active, &:focus {
+    border: 2px solid $red;
+  }
+}

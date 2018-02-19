@@ -8,10 +8,6 @@ import FaTruck from 'react-icons/lib/fa/truck';
 import './ProductCard.css';
 
 class ProductCard extends Component {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       <div className="col-6 col-sm-4 col-md-3 col-lg-2">
