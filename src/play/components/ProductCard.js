@@ -14,13 +14,13 @@ class ProductCard extends Component {
 
   render() {
     return (
-      <div className="col-12 col-md-2">
+      <div className="col-6 col-sm-4 col-md-3 col-lg-2">
         <NavLink to={this.props.buyLink} className="ProductCard d-block mb-4 bg-white br-sm p-3">
           <div className="ImageContainer mb-2">
-            <div className="SquareBanner bg-red text-white fs-xxs p-2">
+            <div className="SquareBanner bg-yellow fs-xxs p-2">
               <div className="SquareContent">
                 <div>
-                  <span>You Save 10%!</span>
+                  <span className="text-black">You Save 10%!</span>
                 </div>
               </div>
             </div>

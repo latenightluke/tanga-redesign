@@ -1,0 +1,24 @@
+@import "../../styles/colors";
+
+.CategoryCard {
+  cursor: pointer;
+  .CategoryImage {
+    border: 3px solid transparent;
+  }
+  &:hover {
+    .CategoryImage {
+      border: 3px solid $red;
+    }
+    .CategoryName {
+      color: $red !important;
+    }
+  }
+  &:active {
+    .CategoryImage {
+      border: 5px solid darken($red, 10%);
+    }
+    .CategoryName {
+      color: darken($red, 10%) !important;
+    }
+  }
+}

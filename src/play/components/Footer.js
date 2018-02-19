@@ -58,7 +58,7 @@ class Footer extends Component {
             </div>
           </div>
         </div>
-        <div className="FooterBanner container-fluid bg-black d-flex justify-content-between px-5 py-1">
+        <div className="FooterBanner container-fluid bg-black d-flex justify-content-between px-5 py-2">
           <p className="d-inline-flex mr-auto mb-0 text-white-25 fs-xxs">&copy; 2018 Tanga.com • United States • All rights reserved.</p>
           <p className="d-inline-flex ml-auto mb-0"><i className="fa fa-cc-amex fa-lg mr-2"></i><i className="fa fa-cc-mastercard fa-lg mr-2"></i><i className="fa fa-cc-visa fa-lg mr-2"></i><i className="fa fa-cc-discover fa-lg"></i></p>
         </div>
