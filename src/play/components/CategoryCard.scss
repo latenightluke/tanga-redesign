@@ -2,6 +2,10 @@
 
 .CategoryCard {
   cursor: pointer;
+  .CategoryName {
+    line-height: 1.15;
+    padding-top: 5px;
+  }
   .CategoryImage {
     border: 3px solid transparent;
   }

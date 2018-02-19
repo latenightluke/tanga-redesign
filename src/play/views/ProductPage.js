@@ -5,6 +5,10 @@ import './ProductPage.css';
 import FaStar from 'react-icons/lib/fa/star';
 
 class ProductPage extends Component {
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }
+  
   render() {
     return (
       <div className="ProductPage bg-white p-3 p-md-5">

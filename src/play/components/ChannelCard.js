@@ -7,7 +7,7 @@ import './ChannelCard.css';
 class ChannelCard extends Component {
   render() {
     return (
-      <div className="col-12 col-md-3">
+      <div className="col">
         <NavLink to={this.props.buyLink} className="ChannelCard br-sm">
           <img src={this.props.image} className="img-fluid d-block" alt=""/>
         </NavLink>

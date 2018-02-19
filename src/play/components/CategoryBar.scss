@@ -1,6 +1,9 @@
 @import "../../styles/colors";
 
 .CategoryBar {
+  z-index: 99;
+  position: relative;
+  display: block;
   .n-link {
     color: $charcoal;
     display: inline-block;
