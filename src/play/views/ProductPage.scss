@@ -1,0 +1,18 @@
+@import "../../styles/colors";
+
+.ProductPage {
+  .quantity-box {
+    padding: 10px 18px 4px 18px;
+    border-radius: 3px;
+    border: 2px solid $fog;
+    color: $gray;
+    &:hover {
+      color: $gray;
+      border: 2px solid $cloud;
+    }
+    &:active, &.active, &:focus {
+      color: $carbon;
+      border: 2px solid $red;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "colors";
+
+.btn-primary {
+  background: $red;
+  border: none !important;
+  font-weight: 500;
+  &:hover, &:active, &.active, &:disabled, &.disabled, &:focus {
+    background: $red !important;
+    color: $white !important;
+  }
+}

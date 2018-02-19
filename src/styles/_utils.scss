@@ -108,7 +108,7 @@
   font-weight: 400 !important;
 }
 .fw-regular {
-  font-weight: 500 !important;
+  font-weight: 400 !important;
 }
 .fw-bold {
   font-weight: 600 !important;
@@ -377,6 +377,7 @@
 .text-googleplus {
   color: $googleplus !important;
 }
+
 .user-select-none {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -384,4 +385,9 @@
        -moz-user-select: none; /* Firefox */
         -ms-user-select: none; /* Internet Explorer/Edge */
             user-select: none;
+}
+
+.list-style-none {
+  list-style: none !important;
+  padding-left: 0;
 }

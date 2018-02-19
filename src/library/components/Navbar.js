@@ -102,31 +102,10 @@ class Navbar extends Component {
                 </li>
               </ul>
             </div>
-            <div>
-              <div role="tab" id="headingFour">
-                <a className="collapsed px-4 py-3 d-block bg-white bb-1-cloud fw-6" style={{position: "relative"}}  data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  Views <FaAngleDown className="text-gray" style={{position: "absolute", right: "1.5rem", top: "19px"}} />
-                </a>
-              </div>
-              <ul className="collapse mb-0 bb-1-cloud submenu" id="collapseFour" role="tabpanel" aria-labelledby="headingFour">
-                <li>
-                  <NavLink to="/grade-breakdown" activeClassName="active" className="navItem">
-                    Grade Breakdown
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink to="/chrome-extension" activeClassName="active" className="navItem">
-                    Chrome Extension
-                  </NavLink>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <a className="px-4 py-3 d-block bg-red bb-1-cloud fw-6">
-                <NavLink to="/play" activeClassName="active" className="navItem text-white">
-                  New Tanga Playground <FaLongArrowRight/>
-                </NavLink>
-              </a>
+            <div className="p-3">
+              <NavLink to="/play" activeClassName="active" className="navItem text-white btn btn-primary w-100">
+                Tanga Playground <FaLongArrowRight/>
+              </NavLink>
             </div>
           </div>
         </div>

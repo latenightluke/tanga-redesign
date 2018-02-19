@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom'
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
 
 import Library from './library/Library';
@@ -13,12 +13,12 @@ import './styles/styles.css';
 class TangaLibrary extends Component {
   render() {
     return (
-      <HashRouter>
+      <Router>
         <Switch>
           <Route exact path="/"  component={Library} />
           <Route path="/play" component={Play} />
         </Switch>
-      </HashRouter>
+      </Router>
     )
   }
 }

@@ -15,7 +15,7 @@ import './Header.css';
 class Header extends Component {
   render() {
     return (
-      <div>
+      <div className="fixed-top">
         <div className=" bs-1">
           <NewsBanner/>
           <div className="Header container-fluid bg-red align-items-center px-4 d-flex flex-row justify-content-between">
@@ -41,7 +41,6 @@ class Header extends Component {
             </div>
           </div>
         </div>
-        <div className="Margin"></div>
       </div>
     );
   }

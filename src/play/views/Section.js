@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import './ProductSection.css';
+import './Section.css';
 
-class ProductSection extends Component {
+class Section extends Component {
   constructor() {
     super()
   }
 
   render() {
     return (
-      <div className="ProductSection container-fluid px-3 px-md-5 mt-5">
+      <div className="Section container-fluid mb-5 px-0">
         <h3 className="SectionName mb-0">{this.props.name}</h3>
         <span className="SectionNameUnderline mb-3 d-inline-block" style={{width: "50px"}}></span>
         <div className="row">
@@ -21,12 +21,12 @@ class ProductSection extends Component {
   }
 }
 
-ProductSection.propTypes = {
+Section.propTypes = {
   name: PropTypes.string
 }
 
-ProductSection.defaultProps = {
+Section.defaultProps = {
   name: "Section Name",
 }
 
-export default ProductSection;
+export default Section;
