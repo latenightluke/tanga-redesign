@@ -13,10 +13,10 @@ class ProductCard extends Component {
       <div className="col-6 col-sm-4 col-md-3 col-lg-2">
         <NavLink to={this.props.buyLink} className="ProductCard d-block mb-4 bg-white br-sm p-3">
           <div className="ImageContainer mb-2">
-            <div className="SquareBanner bg-yellow fs-xxs p-2">
+            <div className="SquareBanner bg-blue fs-xxs p-2">
               <div className="SquareContent px-2">
                 <div>
-                  <span className="text-black">You Save 10%!</span>
+                  <span className="text-white">You Save 10%!</span>
                 </div>
               </div>
             </div>

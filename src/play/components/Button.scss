@@ -1,0 +1,119 @@
+@import "../../styles/colors";
+@import "../../styles/utils";
+@import "../../styles/fonts";
+
+.Button {
+  border-radius: 3px;
+  display: inline-block;
+
+  border: none;
+
+  font-family: $font-stack;
+  font-weight: 500;
+
+  text-align: center;
+  cursor: pointer;
+
+  background: $fog;
+  color: $black;
+
+  &:hover {
+    box-shadow: inset 0px -3px 0px 0px transparentize($black, 0.8);
+  }
+  &:active, &.active, &:focus {
+    box-shadow: inset 0px 3px 0px 0px transparentize($black, 0.85);
+  }
+
+  &.button-primary {
+    background: $red !important;
+    border: none !important;
+    font-weight: 600;
+    color: $white !important;
+    border-radius: 2px;
+    box-shadow: 0px 2px 2px 0px transparentize($black, 0.85);
+    &:hover {
+      background: tint($red, 10%);
+      color: $white;
+    }
+    &:active, &.active, &:focus {
+      background: shade($red, 10%);
+      color: $white;
+    }
+  }
+
+  &.button-secondary {
+    background: $fog;
+    color: $black;
+    &:hover {
+      background: tint($fog, 30%);
+    }
+    &:active, &.active, &:focus {
+      background: shade($fog, 5%);
+    }
+  }
+
+  &.button-danger {
+    background: $red;
+    color: $white;
+    &:hover {
+      background: tint($red, 10%);
+      color: $white;
+    }
+    &:active, &.active, &:focus {
+      background: shade($red, 10%);
+      color: $white;
+    }
+  }
+
+  &.button-success {
+    background: $green;
+    color: $white;
+    &:hover {
+      background: tint($green, 10%);
+      color: $white;
+    }
+    &:active, &.active, &:focus {
+      background: shade($green, 10%);
+      color: $white;
+    }
+  }
+
+  &.button-info {
+    background: $blue;
+    color: $white;
+    &:hover {
+      background: tint($blue, 10%);
+      color: $white;
+    }
+    &:active, &.active, &:focus {
+      background: shade($blue, 10%);
+      color: $white;
+    }
+  }
+
+  &.button-warning {
+    background: $orange;
+    color: $white;
+    &:hover {
+      background: tint($orange, 10%);
+      color: $white;
+    }
+    &:active, &.active, &:focus {
+      background: shade($orange, 10%);
+      color: $white;
+    }
+  }
+
+  &.button-sm {
+    padding: 6px 14px 0px 14px;
+    font-size: 16px;
+  }
+  &.button-md {
+    padding: 8px 18px 3px 18px;
+    font-size: 20px;
+  }
+  &.button-lg {
+    font-size: 26px;
+    padding: 8px 23px 1px 23px;
+  }
+}

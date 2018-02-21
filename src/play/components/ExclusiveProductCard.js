@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
+import Button from './Button';
 
 import FaStar from 'react-icons/lib/fa/star';
 import FaTruck from 'react-icons/lib/fa/truck';
@@ -12,8 +13,8 @@ class ExclusiveProductCard extends Component {
     return (
       <div className="col-8">
         <NavLink to={this.props.buyLink} className="ExclusiveProductCard d-block mb-4 bg-white br-sm p-3">
-          <div className="row p-2">
-            <div className="col-6">
+          <div className="row p-3">
+            <div className="col-5">
               <div className="ImageContainer">
                 <div className="SquareBanner bg-blue p-2">
                   <div className="SquareContent px-2">
@@ -47,7 +48,7 @@ class ExclusiveProductCard extends Component {
                 <p className="text-charcoal fs-sm mb-0 fw-regular" style={{marginTop: "-8px"}}>
                   <FaTruck className="mr-1 mb-1" />{this.props.shipping}
                 </p>
-                <button className="btn btn-primary btn-lg mt-5">Get It Now!</button>
+                <Button theme="primary" size="md" className="mt-5">Get It Now!</Button>
               </div>
             </div>
             <div className="col-1"></div>

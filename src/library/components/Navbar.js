@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import TangaLogoRed from '../../assets/tanga-logo-red.svg';
 
+import Button from '../../play/components/Button';
 import FaAngleDown from 'react-icons/lib/fa/angle-down';
 import FaLongArrowRight from 'react-icons/lib/fa/long-arrow-right';
 
@@ -11,7 +12,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className="nav">
-        <div className="nav-container">
+        <div className="nav-container bg-white">
           <NavLink to="/" className="bg-white p-4 d-block bb-1-cloud text-center">
             <img src={TangaLogoRed} className="img-fluid mx-auto" alt=""/>
             <p className="mb-0 fs-14 text-charcoal text-center fw-regular">Pattern Library</p>
@@ -102,10 +103,10 @@ class Navbar extends Component {
                 </li>
               </ul>
             </div>
-            <div className="p-3">
-              <NavLink to="/play" activeClassName="active" className="navItem text-white btn btn-primary w-100">
+            <div className="p-3" style={{position: "absolute", bottom: "0px", left: "0px", right: "0px"}}>
+              <Button to="/play" theme="primary" className="w-100" >
                 Tanga Playground <FaLongArrowRight/>
-              </NavLink>
+              </Button>
             </div>
           </div>
         </div>

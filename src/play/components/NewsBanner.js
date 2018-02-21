@@ -13,7 +13,7 @@ class NewsBanner extends Component {
     return (
       <div className="NewsBanner container-fluid bg-dark-red text-white text-center text-md-left fs-xs px-4 d-flex justify-content-between">
         <div className="d-flex fw-regular">
-          <span>Free Returns</span> • 100% Risk Free, 100% Easy <FaLongArrowRight className="ml-2 mt-1" />
+          <span>Free Returns</span><span className="mx-2">•</span>100% Risk Free, 100% Easy <FaLongArrowRight className="ml-2 mt-1" />
         </div>
         <NavLink to="/" className="d-flex text-white"><FaLongArrowLeft className="mr-2 mt-1"/>Back To Pattern Library</NavLink>
         <div className="d-flex fw-regular">

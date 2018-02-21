@@ -15,14 +15,18 @@ import ChannelHeaderTwo from '../../assets/channel-header-2.png';
 import './FrontPage.css';
 
 class FrontPage extends Component {
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }
+
   render() {
     return (
       <div>
-        <NavLink to="/play/blog" className="d-block" style={{overflow: "hidden"}}>
+        <NavLink to="/play/blog" className="d-block bb-2-fog" style={{overflow: "hidden"}}>
           <img src={ChannelHeaderTwo} className="img-fluid" alt=""/>
         </NavLink>
-        <div className="FrontPage p-3 p-md-5 bt-2-fog">
-          <Section name="TangaMonkey's Deal of the Day">
+        <div className="FrontPage p-3 p-md-5 bt-2-white">
+          {/* <Section name="TangaMonkey's Deal of the Day">
             <ExclusiveProductCard
               image="https://tanga1.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2F53fd6230e82f.jpeg?ixlib=rails-2.1.1&w=1270&h=1270&auto=format%2Ccompress&cs=srgb&s=a25eb5ef222febe133a8c5f922d034da"
               name={"4-Piece Super Soft 1800 Series Bamboo Fiber Bed Sheets"}
@@ -30,7 +34,7 @@ class FrontPage extends Component {
               shipping="Free Shipping & Free Returns"
             />
             <ChannelCard image={ChannelTwo} />
-          </Section>
+          </Section> */}
           <Section name="Featured Deals">
             <ProductCard
               image="https://tanga2.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-fetched-images-prod%2F8c4c5050-c600-11e6-90c5-271e7638adc8.png?ixlib=rails-2.1.1&w=635&h=635&lossless=1&cs=srgb&q=100&s=a91ff67393bc745e33ce57088b8a8fdf"

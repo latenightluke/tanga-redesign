@@ -7,8 +7,8 @@ class Section extends Component {
   render() {
     return (
       <div className="Section container-fluid mb-5 px-0">
-        <h3 className="SectionName mb-0">{this.props.name}</h3>
-        <span className="SectionNameUnderline mb-3 d-inline-block mx-auto" style={{width: "50px"}}></span>
+        <h3 className="SectionName mb-1">{this.props.name}</h3>
+        {/* <span className="SectionNameUnderline mb-3 d-inline-block mx-auto" style={{width: "50px"}}></span> */}
         <div className="row">
           {this.props.children}
         </div>

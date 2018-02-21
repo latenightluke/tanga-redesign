@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 
+import FaEnvelopeO from 'react-icons/lib/fa/envelope-o';
+import FaTwitter from 'react-icons/lib/fa/twitter';
+import FaFacebook from 'react-icons/lib/fa/facebook';
+import FaInstagram from 'react-icons/lib/fa/instagram';
+import FaSnapchat from 'react-icons/lib/fa/snapchat';
+import FaLongArrowRight from 'react-icons/lib/fa/long-arrow-right';
+
 import "./Footer.css";
 
 class Footer extends Component {
@@ -20,7 +27,7 @@ class Footer extends Component {
               </ul>
               <h6 className="fs-sm">Subscribe</h6>
               <ul className="list-style-none">
-                <li><a href=""><i className="fa fa-envelope-o mr-2"></i>Sign Up For Our Emails<i className="fa fa-long-arrow-right ml-2"></i></a></li>
+                <li><a href=""><FaEnvelopeO className="mr-2 mb-1" />Sign Up For Our Emails <FaLongArrowRight className="ml-1" style={{marginBottom: "1px"}} /></a></li>
               </ul>
             </div>
             <div className="col-12 col-md-3">
@@ -50,10 +57,10 @@ class Footer extends Component {
             <div className="col-12 col-md-3">
               <h6 className="fs-sm">Social</h6>
               <ul className="list-style-none">
-                <li><a href=""><i className="fa fa-twitter fa-large mr-2" style={{width: "15px"}}></i>Twitter</a></li>
-                <li><a href=""><i className="fa fa-facebook fa-large mr-2" style={{width: "15px"}}></i>Facebook</a></li>
-                <li><a href=""><i className="fa fa-instagram fa-large mr-2" style={{width: "15px"}}></i>Instagram</a></li>
-                <li><a href=""><i className="fa fa-snapchat-ghost fa-large mr-2" style={{width: "15px"}}></i>Snapchat</a></li>
+                <li><a href=""><FaTwitter className="mb-1 mr-1" style={{width: "15px"}} />Twitter</a></li>
+                <li><a href=""><FaFacebook className="mb-1 mr-1" style={{width: "15px"}} />Facebook</a></li>
+                <li><a href=""><FaInstagram className="mb-1 mr-1" style={{width: "15px"}} />Instagram</a></li>
+                <li><a href=""><FaSnapchat  className="mb-1 mr-1" style={{width: "15px"}} />Snapchat</a></li>
               </ul>
             </div>
           </div>

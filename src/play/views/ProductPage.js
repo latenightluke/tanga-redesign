@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 
 import './ProductPage.css';
 
+import Button from '../components/Button';
 import FaStar from 'react-icons/lib/fa/star';
 
 class ProductPage extends Component {
   componentDidMount() {
     window.scrollTo(0,0);
   }
-  
+
   render() {
     return (
       <div className="ProductPage bg-white p-3 p-md-5">
@@ -42,13 +43,13 @@ class ProductPage extends Component {
             </div>
             <div className="d-block mb-4">
               <label htmlFor="" className="mb-0">Quantity</label>
-              <a href="" className="quantity-box d-inline-block active mr-1">1</a>
-              <a href="" className="quantity-box d-inline-block mr-1">2</a>
-              <a href="" className="quantity-box d-inline-block mr-1">3</a>
-              <a href="" className="quantity-box d-inline-block mr-1">4</a>
-              <a href="" className="quantity-box d-inline-block mr-1">5</a>
+              <a className="c-pointer user-select-none quantity-box d-inline-block active mr-1">1</a>
+              <a className="c-pointer user-select-none quantity-box d-inline-block mr-1">2</a>
+              <a className="c-pointer user-select-none quantity-box d-inline-block mr-1">3</a>
+              <a className="c-pointer user-select-none quantity-box d-inline-block mr-1">4</a>
+              <a className="c-pointer user-select-none quantity-box d-inline-block mr-1">5</a>
             </div>
-            <a href="" className="btn btn-primary w-100">Add to Cart</a>
+            <Button to="/play" theme="primary" className="w-100">Add to Cart</Button>
           </div>
         </div>
         <div className="row mt-4">
