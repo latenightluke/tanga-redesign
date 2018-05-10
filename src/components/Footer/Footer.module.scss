@@ -1,0 +1,27 @@
+@import "styles/colors";
+
+.Footer {
+  a {
+    text-decoration: none;
+    color: unset;
+    &:hover {
+      text-decoration: none;
+      color: unset;
+      border-bottom: 2px solid $cloud;
+    }
+    &:active, &.active, &:focus {
+      text-decoration: none;
+      color: unset;
+      border-bottom: 2px solid $red;
+    }
+  }
+  ul {
+    list-style: none !important;
+    li {
+      font-weight: 400;
+    }
+  }
+  .FooterBanner {
+    padding: 12px 0px 7px 0px;
+  }
+}

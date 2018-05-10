@@ -1,0 +1,50 @@
+[
+  {
+    "name": "All Categories",
+    "url": "/categories/all",
+    "icon": "th",
+    "color": ""
+  },
+  {
+    "name": "Men",
+    "url": "/categories/men",
+    "icon": "male",
+    "color": ""
+  },
+  {
+    "name": "Women",
+    "url": "/categories/women",
+    "icon": "female",
+    "color": ""
+  },
+  {
+    "name": "Electronics",
+    "url": "/categories/electronics",
+    "icon": "plug",
+    "color": ""
+  },
+  {
+    "name": "Home",
+    "url": "/categories/home",
+    "icon": "home",
+    "color": ""
+  },
+  {
+    "name": "Health & Beauty",
+    "url": "/categories/health_beauty",
+    "icon": "medkit",
+    "color": ""
+  },
+  {
+    "name": "Courses",
+    "url": "/categories/courses",
+    "icon": "graduation-cap",
+    "color": ""
+  },
+  {
+    "name": "Clearance",
+    "url": "/deals/clearance",
+    "icon": "tag",
+    "color": "red"
+  }
+]

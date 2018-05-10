@@ -72,21 +72,12 @@ input {
   }
 }
 
-a {
-  text-decoration: none;
-  color: unset;
-  &:hover {
-    text-decoration: none;
-    color: unset;
-  }
-  &:active, &.active, &:focus {
-    text-decoration: none;
-    color: unset;
-  }
-}
-
 b {
   font-weight: 600;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 // ul {

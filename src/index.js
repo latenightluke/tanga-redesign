@@ -3,24 +3,25 @@ import { render } from 'react-dom'
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
 
-import Library from './library/Library';
-import Play from './play/Play';
+import Library from './containers/Library';
+import Play from './containers/Play';
 
+import './fontawesome.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
 import './styles/styles.css';
 
-class TangaLibrary extends Component {
+class App extends Component {
   render() {
     return (
       <Router>
         <Switch>
-          <Route exact path="/"  component={Library} />
-          <Route path="/play" component={Play} />
+          <Route exact path="/" component={Play} />
+          <Route exact path="/library" component={Library} />
         </Switch>
       </Router>
     )
   }
 }
 
-render(<TangaLibrary/>, document.querySelector('#root'))
+render(<App/>, document.querySelector('#root'))
