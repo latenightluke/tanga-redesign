@@ -1,28 +1,28 @@
 @import "styles/colors";
 
-.CategoryCard {
+.card {
   cursor: pointer;
-  .CategoryName {
-    line-height: 1.15;
-    padding-top: 5px;
-  }
-  .CategoryImage {
-    border: 3px solid transparent;
-  }
   &:hover {
-    .CategoryImage {
+    .image {
       border: 3px solid $red;
     }
-    .CategoryName {
+    .name {
       color: $red !important;
     }
   }
   &:active {
-    .CategoryImage {
+    .image {
       border: 5px solid darken($red, 10%);
     }
-    .CategoryName {
+    .name {
       color: darken($red, 10%) !important;
     }
   }
+}
+.name {
+  line-height: 1.15;
+  padding-top: 5px;
+}
+.image {
+  border: 3px solid transparent;
 }

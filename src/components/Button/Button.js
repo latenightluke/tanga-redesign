@@ -16,7 +16,7 @@ class Button extends Component {
     )
 
     return (
-      <NavLink to={this.props.to} activeClassName="button-active" className={buttonClasses, this.props.className} style={{width: `${this.props.width}`}}>
+      <NavLink to={this.props.to} activeClassName="button-active" className={buttonClasses + " " + this.props.className} style={{width: `${this.props.width}`}}>
         {this.props.children}
       </NavLink>
     )

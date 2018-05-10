@@ -1,12 +1,13 @@
 @import "styles/colors";
 
-.NewsBanner {
+.base {
   padding: 4px 0px 3px 0px;
-  .NavLink {
-    &:hover {
-      .Text {
-        border-bottom: 2px solid $white;
-      }
+}
+
+.link {
+  &:hover {
+    .text {
+      border-bottom: 2px solid $white;
     }
   }
 }

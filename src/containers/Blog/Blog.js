@@ -2,11 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Blog extends Component {
-  componentDidMount() {
-    document.body.scrollTop = 0;
-    window.scrollTo(0,0);
-  }
-
   render() {
     return (
       <div className="Blog py-5 bg-white px-5">
@@ -29,7 +24,7 @@ Blog.propTypes = {
 }
 
 Blog.defaultProps = {
-  buyLink: "/play/product-page",
+  buyLink: "/product-page",
   image: "",
   price: "",
   shipping: ""

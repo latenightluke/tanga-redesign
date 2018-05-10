@@ -25,7 +25,7 @@ FeaturedProductCard.propTypes = {
 }
 
 FeaturedProductCard.defaultProps = {
-  buyLink: "/play/product-page",
+  buyLink: "/product-page",
   headerText: "Featured Product",
   image: "",
   ctaText: "Shop Now"

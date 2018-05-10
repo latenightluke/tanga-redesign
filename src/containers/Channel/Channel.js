@@ -23,21 +23,21 @@ class Channel extends Component {
               <FeaturedProductCard
                 headerText="MacBooks from $169"
                 image="https://tanga2.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2F4910ad6d348e.jpeg?ixlib=rails-2.1.1&w=1270&h=1270&auto=format%2Ccompress&cs=srgb&s=4b34000794a89b3c2b699eb3602cc7b8"
-                buyLink="/play/product-page"
+                buyLink="/product-page"
                 ctaText="Shop MacBooks"
               />
               <div className="col-1"></div>
               <FeaturedProductCard
                 headerText="iPads from $99"
                 image="https://tanga1.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-fetched-images-prod%2F764a24f0-b5b8-11e7-9941-d525667da7ac.jpg?ixlib=rails-2.1.1&w=1270&h=1270&auto=format%2Ccompress&cs=srgb&s=02f4569c9c56287b8cac7a0172d0ffe5"
-                buyLink="/play/product-page"
+                buyLink="/product-page"
                 ctaText="Shop iPads"
               />
               <div className="col-1"></div>
               <FeaturedProductCard
                 headerText="iPhones from $49"
                 image="https://tanga2.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2F68e26852de68.jpeg?ixlib=rails-2.1.1&w=1270&h=1270&auto=format%2Ccompress&cs=srgb&s=1aa925e06ef630df0915fa438d8a4262"
-                buyLink="/play/product-page"
+                buyLink="/product-page"
                 ctaText="Shop iPhones"
               />
             </div>
@@ -93,7 +93,7 @@ Channel.propTypes = {
 }
 
 Channel.defaultProps = {
-  buyLink: "/play/product-page",
+  buyLink: "/product-page",
   image: "",
   price: "",
   shipping: ""

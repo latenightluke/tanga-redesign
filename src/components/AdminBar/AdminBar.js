@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-
-import FaSearch from 'react-icons/lib/fa/search';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 export default class AdminBar extends Component {
   render() {
@@ -10,11 +9,11 @@ export default class AdminBar extends Component {
         <div className="d-flex fw-regular">
           <div className="search-input d-inline-flex ml-auto m-1" style={{position: "relative"}}>
             <input type="text" placeholder="Search products..." className="fw-light ml-4" style={{minWidth: "200px", maxWidth: "200px"}}/>
-            <FaSearch className="fs-17 text-black" style={{position: "absolute", right: "12px", top: "9px", cursor: "pointer"}} />
+            <FontAwesomeIcon icon="search" className="fs-sm text-black" style={{position: "absolute", right: "12px", top: "9px", cursor: "pointer"}} />
           </div>
           <div className="search-input d-inline-flex ml-auto m-1" style={{position: "relative"}}>
             <input type="text" placeholder="Search orders..." className="fw-light ml-4" style={{minWidth: "200px", maxWidth: "200px"}}/>
-            <FaSearch className="fs-17 text-black" style={{position: "absolute", right: "12px", top: "9px", cursor: "pointer"}} />
+            <FontAwesomeIcon icon="search" className="fs-sm text-black" style={{position: "absolute", right: "12px", top: "9px", cursor: "pointer"}} />
           </div>
           <NavLink to="/play/admin/customize" activeClassName="text-white" className="nav-link text-pebble align-self-center mt-1">Customize </NavLink>
           {/* <FaAngleDown className="text-white"/> */}

@@ -16,8 +16,8 @@ class App extends Component {
     return (
       <Router>
         <Switch>
-          <Route exact path="/" component={Play} />
-          <Route exact path="/library" component={Library} />
+          <Route path="/" component={Play} />
+          <Route path="/library" component={Library} />
         </Switch>
       </Router>
     )

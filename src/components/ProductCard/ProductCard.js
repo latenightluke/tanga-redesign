@@ -5,28 +5,28 @@ import { NavLink } from 'react-router-dom';
 import FaStar from 'react-icons/lib/fa/star';
 import FaTruck from 'react-icons/lib/fa/truck';
 
-// import styles './ProductCard.module.css';
+import styles from './ProductCard.module.css';
 
 class ProductCard extends Component {
   render() {
     return (
       <div className="col-6 col-sm-4 col-md-3 col-lg-2">
-        <NavLink to={this.props.buyLink} className="ProductCard d-block mb-4 bg-white br-sm p-3">
-          <div className="ImageContainer mb-2">
-            <div className="SquareBanner bg-red fs-xxs p-2">
-              <div className="SquareContent px-2">
+        <NavLink to={this.props.buyLink} className={styles.card + " d-block mb-4 bg-white br-sm p-3"}>
+          <div className={styles.imageContainer + " mb-2"}>
+            {/* <div className={styles.squareBanner + " bg-red fs-xxs p-2"}>
+              <div className={styles.squareContent + " px-2"}>
                 <div>
                   <span className="text-white">You Save 10%!</span>
                 </div>
               </div>
-            </div>
+            </div> */}
             <img src={this.props.image} className="mx-auto img-fluid" alt=""/>
           </div>
           <div className="card-container">
-            <h6 className="Name mb-0 fw-regular mb-0 fs-15">
+            <h6 className={styles.name + " mb-0 fw-regular fs-xs"}>
               {this.props.name}
             </h6>
-            <div className="Reviews fs-xxs text-yellow mb-3">
+            <div className="fs-xxs text-yellow mb-3">
               <FaStar className=""/>
               <FaStar className=""/>
               <FaStar className=""/>
@@ -55,7 +55,7 @@ ProductCard.propTypes = {
 }
 
 ProductCard.defaultProps = {
-  buyLink: "/play/product-page",
+  buyLink: "/product-page",
   image: "",
   price: "",
   shipping: ""

@@ -67,7 +67,7 @@ ExclusiveProductCard.propTypes = {
 }
 
 ExclusiveProductCard.defaultProps = {
-  buyLink: "/play/product-page",
+  buyLink: "/product-page",
   image: "",
   price: "",
   shipping: ""

@@ -1,6 +1,6 @@
 @import "styles/colors";
 
-.Footer {
+.footer {
   a {
     text-decoration: none;
     color: unset;
@@ -21,7 +21,8 @@
       font-weight: 400;
     }
   }
-  .FooterBanner {
-    padding: 12px 0px 7px 0px;
-  }
+}
+
+.footerBanner {
+  padding: 12px 0px 7px 0px;
 }

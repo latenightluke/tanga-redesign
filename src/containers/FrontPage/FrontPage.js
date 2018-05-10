@@ -20,25 +20,17 @@ class FrontPage extends Component {
   render() {
     return (
       <div>
-        <NavLink to="/play/blog" className="d-block bb-2-fog" style={{overflow: "hidden"}}>
+        <NavLink to="/blog" className="d-block bb-2-fog" style={{overflow: "hidden"}}>
           <img src={ChannelHeaderTwo} className="img-fluid" alt=""/>
         </NavLink>
         <div className="FrontPage p-3 p-md-5 bt-2-white">
-          {/* <Section name="TangaMonkey's Deal of the Day">
-            <ExclusiveProductCard
-              image="https://tanga1.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2F53fd6230e82f.jpeg?ixlib=rails-2.1.1&w=1270&h=1270&auto=format%2Ccompress&cs=srgb&s=a25eb5ef222febe133a8c5f922d034da"
-              name={"4-Piece Super Soft 1800 Series Bamboo Fiber Bed Sheets"}
-              price="$549.23"
-              shipping="Free Shipping & Free Returns"
-            />
-            <ChannelCard image={ChannelTwo} />
-          </Section> */}
           <Section name="Featured Deals">
             <ProductCard
               image="https://tanga2.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-fetched-images-prod%2F8c4c5050-c600-11e6-90c5-271e7638adc8.png?ixlib=rails-2.1.1&w=635&h=635&lossless=1&cs=srgb&q=100&s=a91ff67393bc745e33ce57088b8a8fdf"
               name={"Apple 13.3\" MacBook Pro MD101LL/A + FREE CASE (Core i5, 4GB, 500GB HDD)"}
               price="$549.23"
               shipping="Free Shipping"
+              buyLink="/product-page"
             />
             <ProductCard
               image="https://tanga3.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2Fe5fa30c80207.jpeg?ixlib=rails-2.1.1&fit=crop&w=500&h=500&auto=format%2Ccompress&cs=srgb&s=f58c516fea185c779241e439acd49bf6"
