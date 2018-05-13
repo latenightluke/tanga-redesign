@@ -16,6 +16,7 @@ Knowing this, I took matters into my own hands and felt the need to redesign Tan
 This was built using React, React Router 4, CSS Modules, Sass, and Bootstrap 4. This follows the user experience that currently exists on Tanga, but is improved and updated to match the new look and feel.
 
 ### Development Server
+To start developing, simply clone the repo, and then:
 ```
 yarn install
 yarn start
