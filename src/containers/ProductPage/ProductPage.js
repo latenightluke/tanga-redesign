@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 import styles from './ProductPage.module.css';
 
 import Button from '../../components/Button/Button';
-import FaStar from 'react-icons/lib/fa/star';
 
 class ProductPage extends Component {
   componentDidMount() {
@@ -34,7 +34,7 @@ class ProductPage extends Component {
             <h4 className="text-charcoal fw-600 mb-0">Parrot Rolling Spider Helicopter with HD Camera - Plus Free Express Shipping</h4>
             <p className="mb-4">
               <div className="text-gold fs-14 d-inline-block">
-                <FaStar className="text-yellow" /><FaStar className="text-yellow" /><FaStar className="text-yellow" /><FaStar className="text-yellow" /><FaStar className="text-yellow" />
+                <FontAwesomeIcon icon="star" className="text-yellow" /><FontAwesomeIcon icon="star" className="text-yellow" /><FontAwesomeIcon icon="star" className="text-yellow" /><FontAwesomeIcon icon="star" className="text-yellow" /><FontAwesomeIcon icon="star" className="text-yellow" />
               </div>
               <a href="" className="ml-2 text-gray">(1,254 reviews)</a>
             </p>
@@ -43,11 +43,11 @@ class ProductPage extends Component {
             </div>
             <div className="d-block mb-4">
               <label htmlFor="" className="mb-0">Quantity</label>
-              <a className={styles.QuantityBox + " c-pointer user-select-none d-inline-block mr-1 active"}>1</a>
-              <a className={styles.QuantityBox + " c-pointer user-select-none d-inline-block mr-1"}>2</a>
-              <a className={styles.QuantityBox + " c-pointer user-select-none d-inline-block mr-1"}>3</a>
-              <a className={styles.QuantityBox + " c-pointer user-select-none d-inline-block mr-1"}>4</a>
-              <a className={styles.QuantityBox + " c-pointer user-select-none d-inline-block mr-1"}>5</a>
+              <a className={styles.quantityBox + " " + styles.active + " c-pointer user-select-none d-inline-block mr-1"}>1</a>
+              <a className={styles.quantityBox + " c-pointer user-select-none d-inline-block mr-1"}>2</a>
+              <a className={styles.quantityBox + " c-pointer user-select-none d-inline-block mr-1"}>3</a>
+              <a className={styles.quantityBox + " c-pointer user-select-none d-inline-block mr-1"}>4</a>
+              <a className={styles.quantityBox + " c-pointer user-select-none d-inline-block mr-1"}>5</a>
             </div>
             <Button to="/play" theme="primary" className="w-100">Add to Cart</Button>
           </div>

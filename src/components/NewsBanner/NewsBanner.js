@@ -3,9 +3,6 @@ import { NavLink } from 'react-router-dom';
 import { Container } from 'reactstrap';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
-import FaLongArrowRight from 'react-icons/lib/fa/long-arrow-right';
-import FaLongArrowLeft from 'react-icons/lib/fa/long-arrow-left';
-
 import styles from './NewsBanner.module.css';
 
 class NewsBanner extends Component {
@@ -13,10 +10,10 @@ class NewsBanner extends Component {
     return (
       <Container fluid className={styles.base + " bg-dark-red text-white text-center text-md-left fs-xs px-md-4 px-2 d-flex justify-content-between"}>
         <div className="d-inline-flex fw-regular text-center text-md-left align-self-center">
-          <span>Free Returns</span><span className="mx-2">•</span>100% Risk Free, 100% Easy <FaLongArrowRight className="ml-2 mt-1" />
+          <span>Free Returns</span><span className="mx-2">•</span>100% Risk Free, 100% Easy <FontAwesomeIcon icon="long-arrow-alt-right" className="ml-2 mt-1" />
         </div>
         <NavLink to="/" className="d-none d-md-flex text-white">
-          <FaLongArrowLeft className="mr-2 mt-1"/>Back To Pattern Library
+          <FontAwesomeIcon icon="long-arrow-alt-left" className="mr-2 mt-1"/>Back To Pattern Library
         </NavLink>
         <div className="fw-regular d-none d-md-flex">
           <NavLink to="/" className="NavLink text-white mr-4">

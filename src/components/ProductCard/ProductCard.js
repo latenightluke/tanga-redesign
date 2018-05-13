@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
-
-import FaStar from 'react-icons/lib/fa/star';
-import FaTruck from 'react-icons/lib/fa/truck';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
 import styles from './ProductCard.module.css';
 
@@ -27,18 +25,18 @@ class ProductCard extends Component {
               {this.props.name}
             </h6>
             <div className="fs-xxs text-yellow mb-3">
-              <FaStar className=""/>
-              <FaStar className=""/>
-              <FaStar className=""/>
-              <FaStar className=""/>
-              <FaStar className="mr-1"/>
+              <FontAwesomeIcon icon="star" />
+              <FontAwesomeIcon icon="star" />
+              <FontAwesomeIcon icon="star" />
+              <FontAwesomeIcon icon="star" />
+              <FontAwesomeIcon icon="star" className="mr-1"/>
               <span className="text-gray fw-light">(125)</span>
             </div>
             <h5 className="fs-md fw-bold text-red mb-0">
               {this.props.price}
             </h5>
             <p className="text-charcoal fs-xxs mb-0 fw-regular text-uppercase" style={{marginTop: "-6px"}}>
-              <FaTruck className="mr-1 mb-1" />{this.props.shipping}
+              <FontAwesomeIcon icon="truck" className="mr-1 mb-1" />{this.props.shipping}
             </p>
           </div>
         </NavLink>

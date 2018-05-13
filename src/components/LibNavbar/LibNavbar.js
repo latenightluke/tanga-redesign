@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+
 import logo from '../../assets/logo/red.svg';
 
 import Button from '../Button/Button';
-import FaAngleDown from 'react-icons/lib/fa/angle-down';
-import FaLongArrowRight from 'react-icons/lib/fa/long-arrow-right';
 
 import styles from './LibNavbar.module.css';
 
@@ -22,7 +22,7 @@ class Navbar extends Component {
             <div>
               <div role="tab" id="headingOne">
                 <a className="px-4 py-3 d-block bg-white bb-1-cloud fw-6" style={{position: "relative"}}  data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Overview <FaAngleDown className="text-gray" style={{position: "absolute", right: "1.5rem", top: "19px"}} />
+                  Overview <FontAwesomeIcon icon="angle-down" className="text-gray" style={{position: "absolute", right: "1.5rem", top: "19px"}} />
                 </a>
               </div>
               <ul className="collapse show mb-0 bb-1-cloud submenu" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
@@ -48,7 +48,7 @@ class Navbar extends Component {
             <div>
               <div role="tab" id="headingTwo">
                 <a className="collapsed px-4 py-3 d-block bg-white bb-1-cloud fw-6" style={{position: "relative"}}  data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  Design <FaAngleDown className="text-gray" style={{position: "absolute", right: "1.5rem", top: "19px"}} />
+                  Design <FontAwesomeIcon icon="angle-down" className="text-gray" style={{position: "absolute", right: "1.5rem", top: "19px"}} />
                 </a>
               </div>
               <ul className="collapse mb-0 bb-1-cloud submenu" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo">
@@ -87,7 +87,7 @@ class Navbar extends Component {
             <div>
               <div role="tab" id="headingThree">
                 <a className="collapsed px-4 py-3 d-block bg-white bb-1-cloud fw-6" style={{position: "relative"}}  data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  Components <FaAngleDown className="text-gray" style={{position: "absolute", right: "1.5rem", top: "19px"}} />
+                  Components <FontAwesomeIcon icon="angle-down" className="text-gray" style={{position: "absolute", right: "1.5rem", top: "19px"}} />
                 </a>
               </div>
               <ul className="collapse mb-0 bb-1-cloud submenu" id="collapseThree" role="tabpanel" aria-labelledby="headingThree">
@@ -105,7 +105,7 @@ class Navbar extends Component {
             </div>
             <div className="p-3" style={{position: "absolute", bottom: "0px", left: "0px", right: "0px"}}>
               <Button to="/play" theme="primary" className="w-100" >
-                Tanga Playground <FaLongArrowRight/>
+                Tanga Playground <FontAwesomeIcon icon="long-arrow-alt-right" />
               </Button>
             </div>
           </div>

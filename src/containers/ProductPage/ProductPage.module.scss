@@ -14,3 +14,38 @@
     border: 2px solid $red;
   }
 }
+
+.active {
+  color: $carbon;
+  border: 2px solid $red;
+}
+
+// .breadcrumb {
+//   background: none;
+//   border-radius: 3px;
+//   border: 2px solid $fog;
+//   .breadcrumb-item {
+//     color: $gray;
+//     a {
+//       &:hover {
+//         border-bottom: 2px solid $cloud;
+//           color: $pebble;
+//       }
+//       &:active {
+//         color: $charcoal;
+//         border-bottom: 2px solid $red;
+//       }
+//     }
+//     &.active {
+//       color: $charcoal;
+//     }
+//     &:first-of-type {
+//       padding-top: 3px;
+//     }
+//   }
+//   .breadcrumb-item + .breadcrumb-item::before {
+//     font-family: "FontAwesome";
+//     color: $cloud;
+//     content: "\f105";
+//   }
+// }

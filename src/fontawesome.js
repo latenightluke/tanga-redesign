@@ -1,5 +1,6 @@
 import fontawesome from '@fortawesome/fontawesome';
 
+import faStar from '@fortawesome/fontawesome-free-solid/faStar';
 import faTruck from '@fortawesome/fontawesome-free-solid/faTruck';
 import faHeart from '@fortawesome/fontawesome-free-solid/faHeart';
 import faTh from '@fortawesome/fontawesome-free-solid/faTh';
@@ -16,6 +17,7 @@ import faUser from '@fortawesome/fontawesome-free-solid/faUser';
 import faSearch from '@fortawesome/fontawesome-free-solid/faSearch';
 import faShoppingCart from '@fortawesome/fontawesome-free-solid/faShoppingCart';
 import faLongArrowAltRight from '@fortawesome/fontawesome-free-solid/faLongArrowAltRight';
+import faLongArrowAltLeft from '@fortawesome/fontawesome-free-solid/faLongArrowAltLeft';
 import faEnvelope from '@fortawesome/fontawesome-free-solid/faEnvelope';
 
 import faTwitter from '@fortawesome/fontawesome-free-brands/faTwitter';
@@ -27,4 +29,4 @@ import faCcMastercard from '@fortawesome/fontawesome-free-brands/faCcMastercard'
 import faCcVisa from '@fortawesome/fontawesome-free-brands/faCcVisa';
 import faCcDiscover from '@fortawesome/fontawesome-free-brands/faCcDiscover';
 
-fontawesome.library.add(faTruck, faHeart, faTh, faMale, faFemale, faPlug, faHome, faMedkit, faGraduationCap, faTag, faQuestionCircle, faAngleDown, faUser, faSearch, faShoppingCart, faLongArrowAltRight, faEnvelope, faTwitter, faFacebookF, faInstagram, faSnapchat, faCcAmex, faCcMastercard, faCcVisa, faCcDiscover);
+fontawesome.library.add(faStar, faTruck, faHeart, faTh, faMale, faFemale, faPlug, faHome, faMedkit, faGraduationCap, faTag, faQuestionCircle, faAngleDown, faUser, faSearch, faShoppingCart, faLongArrowAltRight, faLongArrowAltLeft, faEnvelope, faTwitter, faFacebookF, faInstagram, faSnapchat, faCcAmex, faCcMastercard, faCcVisa, faCcDiscover);
