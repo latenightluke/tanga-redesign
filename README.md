@@ -13,11 +13,11 @@ Knowing this, I took matters into my own hands and felt the need to redesign Tan
 4. Create a new Design System for Tanga that will unify the experience and branding on both the web and in email.
 
 ## Technology
-This was built using React, React Router 4, CSS Modules, Sass, and Bootstrap 4. This follows the user experience that currently exists on Tanga, but is improved and updated to match the new look and feel.
+This was built using React, React Router 4, Sass, and TailwindCSS. This follows the user experience that currently exists on Tanga, but is improved and updated to match the new look and feel.
 
 ### Development Server
 To start developing, simply clone the repo, and then:
 ```
-yarn install
+yarn
 yarn start
 ```

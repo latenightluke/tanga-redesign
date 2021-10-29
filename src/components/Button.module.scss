@@ -1,54 +1,12 @@
-@import "styles/colors";
-@import "styles/utils";
-@import "styles/fonts";
-
-.base {
-  border-radius: 3px;
-  display: inline-block;
-
-  border: none;
-
-  font-family: $font-stack;
-  font-weight: 500;
-
-  text-decoration: none !important;
-
-  text-align: center;
-  cursor: pointer;
-
-  &:hover {
-    box-shadow: inset 0px -3px 0px 0px transparentize($black, 0.8);
-  }
-  &:active, &.active, &:focus {
-    box-shadow: inset 0px 3px 0px 0px transparentize($black, 0.85);
-  }
-}
-
-.primary {
-  background: $red;
-  color: $white;
-
-  border: none;
-  font-weight: 600;
-  border-radius: 2px;
-  box-shadow: 0px 2px 2px 0px transparentize($black, 0.85);
-  &:hover {
-    background: lighten($red, 5%);
-    color: $white;
-  }
-  &:active, &.active, &:focus {
-    background: shade($red, 10%);
-    color: $white;
-  }
-}
-
 .secondary {
   background: $fog;
   color: $black;
   &:hover {
     background: tint($fog, 30%);
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($fog, 5%);
   }
 }
@@ -60,7 +18,9 @@
     background: tint($red, 10%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($red, 10%);
     color: $white;
   }
@@ -73,7 +33,9 @@
     background: tint($green, 10%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($green, 10%);
     color: $white;
   }
@@ -86,7 +48,9 @@
     background: tint($blue, 10%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($blue, 10%);
     color: $white;
   }
@@ -99,7 +63,9 @@
     background: tint($orange, 10%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($orange, 10%);
     color: $white;
   }

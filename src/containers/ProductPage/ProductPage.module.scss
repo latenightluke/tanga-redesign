@@ -1,15 +1,17 @@
-@import "styles/colors";
+@import "../../styles/colors";
 
 .quantityBox {
   padding: 10px 18px 4px 18px;
   border-radius: 3px;
   border: 2px solid $fog;
-  color: $gray;
+  color: gray-500;
   &:hover {
-    color: $gray;
+    color: gray-500;
     border: 2px solid $cloud;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     color: $carbon;
     border: 2px solid $red;
   }
@@ -25,19 +27,19 @@
 //   border-radius: 3px;
 //   border: 2px solid $fog;
 //   .breadcrumb-item {
-//     color: $gray;
+//     color: gray-500;
 //     a {
 //       &:hover {
 //         border-bottom: 2px solid $cloud;
 //           color: $pebble;
 //       }
 //       &:active {
-//         color: $charcoal;
+//         color: text-gray-700;
 //         border-bottom: 2px solid $red;
 //       }
 //     }
 //     &.active {
-//       color: $charcoal;
+//       color: text-gray-700;
 //     }
 //     &:first-of-type {
 //       padding-top: 3px;

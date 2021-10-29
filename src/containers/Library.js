@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
-import { Route, Switch } from 'react-router-dom';
-import { Container } from 'reactstrap';
+import React, { Component } from "react";
+import { Route, Switch } from "react-router-dom";
+import { Container } from "reactstrap";
 
-import LibNavbar from '../components/LibNavbar/LibNavbar';
-import LibContent from '../components/LibContent/LibContent';
+import LibNavbar from "../components/LibNavbar";
+import LibContent from "../components/LibContent";
 
 class Library extends Component {
   render() {

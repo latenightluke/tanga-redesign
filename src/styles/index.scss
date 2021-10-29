@@ -1,7 +1,8 @@
-@import "colors";
-@import "utils";
-@import "fonts";
-@import "custom";
+// @import "./_colors.scss";
+// @import "./_utils.scss";
+// @import "./_fonts.scss";
+// @import "./_custom.scss";
+@import "~bootstrap/scss/bootstrap.scss";
 
 body {
   font-family: $font-stack;
@@ -16,7 +17,12 @@ body {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: $carbon;
   font-weight: 700;
   line-height: 125%;
@@ -24,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: $font-stack;
-  color: $charcoal;
+  color: text-gray-700;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
@@ -58,15 +64,18 @@ label {
 
 input {
   font-family: $font-stack;
-  color: $charcoal !important;
+  color: text-gray-700 !important;
   border-radius: 2px;
   border: none;
   margin: 0;
   padding: 8px 10px 2px 10px;
   &::placeholder {
-    // color: $gray !important;
+    // color: gray-500 !important;
   }
-  &:hover, &:active, &.active, &:focus {
+  &:hover,
+  &:active,
+  &.active,
+  &:focus {
     box-shadow: none;
     outline: none !important;
   }

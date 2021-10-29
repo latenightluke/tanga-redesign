@@ -1,42 +1,42 @@
 // primary colors
-$red:    #C62931; // OG Red
-$red:    #E53947; // hsl(355, 75%, 90%)
-$red:    #E3404D;
+$red: #c62931; // OG Red
+$red: #e53947; // hsl(355, 75%, 90%)
+$red: #e3404d;
 // $red:    #e74c3c;
 
-$blue:   #49AED0; // hsl(195, 59%, 55%)
-$blue:   #3498db;
+$blue: #49aed0; // hsl(195, 59%, 55%)
+$blue: #3498db;
 
-$green:  #00A362; // hsl(156, 100%, 32%)
-$green:  #2ecc71;
+$green: #00a362; // hsl(156, 100%, 32%)
+$green: #2ecc71;
 
-$orange: #F28D27; // hsl(32, 83%, 56%)
+$orange: #f28d27; // hsl(32, 83%, 56%)
 $orange: #e67e22;
 
-$yellow: #F5D847; // hsl(50, 90%, 62%)
-$yellow: #F0CF65;
+$yellow: #f5d847; // hsl(50, 90%, 62%)
+$yellow: #f0cf65;
 $yellow: #f1c40f;
 
 // shades
-$black:      #111822; // hsl(215,32%,10%)
-$carbon:     #222C3A; // hsl(215,26%,18%)
-$charcoal:   #354050; // hsl(215,20%,26%)
-$pebble:     #79879A; // hsl(215,14%,54%)
-$gray:       #A2ABB9; // hsl(215,14%,68%)
-$cloud:      #D0D5DC; // hsl(215,14%,84%)
-$fog:        #F0F2F5; // hsl(215,20%,95%)
-$snow:       #F9FAFB; // hsl(215,26%,98%)
-$white:      #FFFFFF; // hsl(215,32%,100%)
+$black: #111822; // hsl(215,32%,10%)
+$carbon: #222c3a; // hsl(215,26%,18%)
+text-gray-700: #354050; // hsl(215,20%,26%)
+$pebble: #79879a; // hsl(215,14%,54%)
+gray-500: #a2abb9; // hsl(215,14%,68%)
+$cloud: #d0d5dc; // hsl(215,14%,84%)
+$fog: #f0f2f5; // hsl(215,20%,95%)
+$snow: #f9fafb; // hsl(215,26%,98%)
+$white: #ffffff; // hsl(215,32%,100%)
 
 // social colors
 $facebook: #3b5998;
 $twitter: #00b6f1;
-$googleplus: #df4a32 ;
-$linkedin: #007bb6 ;
+$googleplus: #df4a32;
+$linkedin: #007bb6;
 $pinterest: #cb2027;
 
 $applepay: #111823;
-$google: #427FED;
+$google: #427fed;
 
 // background color utilities
 .bg-light-red {
@@ -67,13 +67,13 @@ $google: #427FED;
   background: $carbon !important;
 }
 .bg-charcoal {
-  background: $charcoal !important;
+  background: text-gray-700 !important;
 }
 .bg-pebble {
   background: $pebble !important;
 }
 .bg-gray {
-  background: $gray !important;
+  background: gray-500 !important;
 }
 .bg-cloud {
   background: $cloud !important;
@@ -123,13 +123,13 @@ $google: #427FED;
   color: $carbon !important;
 }
 .text-charcoal {
-  color: $charcoal !important;
+  color: text-gray-700 !important;
 }
 .text-pebble {
   color: $pebble !important;
 }
 .text-gray {
-  color: $gray !important;
+  color: gray-500 !important;
 }
 .text-cloud {
   color: $cloud !important;

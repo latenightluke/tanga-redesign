@@ -1,23 +1,23 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React, { Component } from "react";
+import PropTypes from "prop-types";
 
-import Section from '../Section/Section';
+import Section from "../Section/Section";
 
-import ProductCard from '../../components/ProductCard/ProductCard';
-import FeaturedProductCard from '../../components/FeaturedProductCard/FeaturedProductCard';
+import ProductCard from "../../components/ProductCard";
+import FeaturedProductCard from "../../components/FeaturedProductCard/FeaturedProductCard";
 
-import ChannelHeaderImage from '../../assets/channel-header-4.png';
+import ChannelHeaderImage from "../../assets/channel-header-4.png";
 
 class Channel extends Component {
   componentDidMount() {
-    window.scrollTo(0,0);
+    window.scrollTo(0, 0);
   }
 
   render() {
     return (
       <div>
         <div className="ChannelHeader p-3 p-md-5">
-          <img src={ChannelHeaderImage} className="img-fluid mb-5" alt=""/>
+          <img src={ChannelHeaderImage} className="img-fluid mb-5" alt="" />
           <div className="p-5 bg-white bs-sm br-sm mb-5">
             <div className="row">
               <FeaturedProductCard
@@ -45,7 +45,7 @@ class Channel extends Component {
           <Section name="Here's Some Crazy Products">
             <ProductCard
               image="https://tanga1.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2F6480eeb1bace.png?ixlib=rails-2.1.1&w=1270&h=1270&auto=format%2Ccompress&cs=srgb&s=b5ceca16b7805ccf977cc27faefce894"
-              name={"Apple 11.6\" MacBook Air MC968LLA Intel Core i5"}
+              name={'Apple 11.6" MacBook Air MC968LLA Intel Core i5'}
               price="$549.23"
               shipping="Free Shipping"
             />
@@ -61,7 +61,7 @@ class Channel extends Component {
               price="$549.23"
               shipping="Free Shipping"
             />
-             <ProductCard
+            <ProductCard
               image="https://tanga2.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-fetched-images-prod%2Fbe523440-eb32-11e7-8c1b-2d203daf72a4.jpg?ixlib=rails-2.1.1&w=1270&h=1270&auto=format%2Ccompress&cs=srgb&s=fa53c56568c6b2f56ac0696ee044d7fe"
               name="Apple iPhone 5S Silver 16GB T-Mobile Smartphone (Brand New)"
               price="$549.23"
@@ -75,7 +75,7 @@ class Channel extends Component {
             />
             <ProductCard
               image="https://tanga3.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2F91357a09dda6.jpeg?ixlib=rails-2.1.1&fit=crop&w=500&h=500&auto=format%2Ccompress&cs=srgb&s=b2a344dfe0cdb0e6d9ff1da786ca4649"
-              name={"Apple 11.6\" MacBook Air MC968LLA Intel Core i5"}
+              name={'Apple 11.6" MacBook Air MC968LLA Intel Core i5'}
               price="$549.23"
               shipping="Free Shipping"
             />
@@ -89,15 +89,14 @@ class Channel extends Component {
 Channel.propTypes = {
   headerImage: PropTypes.string,
   price: PropTypes.string,
-  shipping: PropTypes.string
-}
+  shipping: PropTypes.string,
+};
 
 Channel.defaultProps = {
   buyLink: "/product-page",
   image: "",
   price: "",
-  shipping: ""
-}
-
+  shipping: "",
+};
 
 export default Channel;

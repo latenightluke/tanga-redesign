@@ -1,6 +1,3 @@
-@import "colors";
-@import "fonts";
-
 // border radius
 .br-sm {
   border-radius: 3px;
@@ -90,7 +87,7 @@
 .fs-xs {
   font-size: 16px !important;
 }
-.fs-sm {
+.text-sm {
   font-size: 18px !important;
 }
 .fs-md {
@@ -107,10 +104,10 @@
 }
 
 // font weight
-.fw-light {
+.font-light {
   font-weight: 400 !important;
 }
-.fw-regular {
+.font-normal {
   font-weight: 400 !important;
 }
 .fw-bold {
@@ -184,7 +181,7 @@
 
 // opacity
 .o-100 {
-  opacity: 1.0 !important;
+  opacity: 1 !important;
 }
 .o-90 {
   opacity: 0.9 !important;
@@ -290,13 +287,13 @@
   background: $carbon !important;
 }
 .bg-charcoal {
-  background: $charcoal !important;
+  background: text-gray-700 !important;
 }
 .bg-pebble {
   background: $pebble !important;
 }
 .bg-gray {
-  background: $gray !important;
+  background: gray-500 !important;
 }
 .bg-cloud {
   background: $cloud !important;
@@ -319,13 +316,13 @@
   color: $carbon !important;
 }
 .text-charcoal {
-  color: $charcoal !important;
+  color: text-gray-700 !important;
 }
 .text-pebble {
   color: $pebble !important;
 }
 .text-gray {
-  color: $gray !important;
+  color: gray-500 !important;
 }
 .text-cloud {
   color: $cloud !important;
@@ -345,7 +342,7 @@
   color: transparentize($white, 0.75);
 }
 .text-white-50 {
-  color: transparentize($white, 0.50);
+  color: transparentize($white, 0.5);
 }
 .text-white-75 {
   color: transparentize($white, 0.25);
@@ -356,7 +353,7 @@
   color: transparentize($black, 0.75);
 }
 .text-black-50 {
-  color: transparentize($black, 0.50);
+  color: transparentize($black, 0.5);
 }
 .text-black-75 {
   color: transparentize($black, 0.25);
@@ -386,14 +383,14 @@
 
 .user-select-none {
   -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
 }
 
-.list-style-none {
+.list-none {
   list-style: none !important;
   padding-left: 0;
 }
