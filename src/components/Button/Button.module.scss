@@ -19,7 +19,9 @@
   &:hover {
     box-shadow: inset 0px -3px 0px 0px transparentize($black, 0.8);
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     box-shadow: inset 0px 3px 0px 0px transparentize($black, 0.85);
   }
 }
@@ -36,7 +38,9 @@
     background: lighten($red, 5%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($red, 10%);
     color: $white;
   }
@@ -48,7 +52,9 @@
   &:hover {
     background: tint($fog, 30%);
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($fog, 5%);
   }
 }
@@ -60,7 +66,9 @@
     background: tint($red, 10%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($red, 10%);
     color: $white;
   }
@@ -73,7 +81,9 @@
     background: tint($green, 10%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($green, 10%);
     color: $white;
   }
@@ -86,7 +96,9 @@
     background: tint($blue, 10%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($blue, 10%);
     color: $white;
   }
@@ -99,21 +111,23 @@
     background: tint($orange, 10%);
     color: $white;
   }
-  &:active, &.active, &:focus {
+  &:active,
+  &.active,
+  &:focus {
     background: shade($orange, 10%);
     color: $white;
   }
 }
 
 .sm {
-  padding: 6px 14px 0px 14px;
+  padding: 6px 14px 6px 14px;
   font-size: 16px;
 }
 .md {
-  padding: 8px 18px 3px 18px;
+  padding: 8px 18px 8px 18px;
   font-size: 20px;
 }
 .lg {
   font-size: 26px;
-  padding: 8px 23px 1px 23px;
+  padding: 8px 23px 8px 23px;
 }
