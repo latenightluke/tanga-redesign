@@ -29,4 +29,32 @@ import faCcMastercard from '@fortawesome/fontawesome-free-brands/faCcMastercard'
 import faCcVisa from '@fortawesome/fontawesome-free-brands/faCcVisa';
 import faCcDiscover from '@fortawesome/fontawesome-free-brands/faCcDiscover';
 
-fontawesome.library.add(faStar, faTruck, faHeart, faTh, faMale, faFemale, faPlug, faHome, faMedkit, faGraduationCap, faTag, faQuestionCircle, faAngleDown, faUser, faSearch, faShoppingCart, faLongArrowAltRight, faLongArrowAltLeft, faEnvelope, faTwitter, faFacebookF, faInstagram, faSnapchat, faCcAmex, faCcMastercard, faCcVisa, faCcDiscover);
+fontawesome.library.add(
+  faStar,
+  faTruck,
+  faHeart,
+  faTh,
+  faMale,
+  faFemale,
+  faPlug,
+  faHome,
+  faMedkit,
+  faGraduationCap,
+  faTag,
+  faQuestionCircle,
+  faAngleDown,
+  faUser,
+  faSearch,
+  faShoppingCart,
+  faLongArrowAltRight,
+  faLongArrowAltLeft,
+  faEnvelope,
+  faTwitter,
+  faFacebookF,
+  faInstagram,
+  faSnapchat,
+  faCcAmex,
+  faCcMastercard,
+  faCcVisa,
+  faCcDiscover
+);

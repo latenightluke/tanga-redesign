@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import React, { Component } from 'react';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
-import styles from "./ProductPage.module.css";
+import styles from './ProductPage.module.css';
 
-import Button from "../../components/Button/Button";
-import MacBookImage from "../../assets/products/macbook.jpg";
+import Button from '../../components/Button/Button';
+import MacBookImage from '../../assets/products/macbook.jpg';
 
 class ProductPage extends Component {
   componentDidMount() {
@@ -81,9 +81,9 @@ class ProductPage extends Component {
               <a
                 className={
                   styles.quantityBox +
-                  " " +
+                  ' ' +
                   styles.active +
-                  " c-pointer user-select-none d-inline-block mr-1"
+                  ' c-pointer user-select-none d-inline-block mr-1'
                 }
               >
                 1
@@ -91,7 +91,7 @@ class ProductPage extends Component {
               <a
                 className={
                   styles.quantityBox +
-                  " c-pointer user-select-none d-inline-block mr-1"
+                  ' c-pointer user-select-none d-inline-block mr-1'
                 }
               >
                 2
@@ -99,7 +99,7 @@ class ProductPage extends Component {
               <a
                 className={
                   styles.quantityBox +
-                  " c-pointer user-select-none d-inline-block mr-1"
+                  ' c-pointer user-select-none d-inline-block mr-1'
                 }
               >
                 3
@@ -107,7 +107,7 @@ class ProductPage extends Component {
               <a
                 className={
                   styles.quantityBox +
-                  " c-pointer user-select-none d-inline-block mr-1"
+                  ' c-pointer user-select-none d-inline-block mr-1'
                 }
               >
                 4
@@ -115,7 +115,7 @@ class ProductPage extends Component {
               <a
                 className={
                   styles.quantityBox +
-                  " c-pointer user-select-none d-inline-block mr-1"
+                  ' c-pointer user-select-none d-inline-block mr-1'
                 }
               >
                 5

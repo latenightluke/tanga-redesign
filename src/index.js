@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom'
+import { render } from 'react-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
 
@@ -20,8 +20,8 @@ class App extends Component {
           <Route path="/library" component={Library} />
         </Switch>
       </Router>
-    )
+    );
   }
 }
 
-render(<App/>, document.querySelector('#root'))
+render(<App />, document.querySelector('#root'));

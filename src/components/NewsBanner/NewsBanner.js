@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
-import { Container } from "reactstrap";
-import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
+import { Container } from 'reactstrap';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
 
-import styles from "./NewsBanner.module.css";
+import styles from './NewsBanner.module.css';
 
 class NewsBanner extends Component {
   render() {
@@ -12,12 +12,12 @@ class NewsBanner extends Component {
         fluid
         className={
           styles.base +
-          " bg-dark-red text-white text-center text-md-left fs-xs px-md-4 px-2 d-flex justify-content-between"
+          ' bg-dark-red text-white text-center text-md-left fs-xs px-md-4 px-2 d-flex justify-content-between'
         }
       >
         <div className="d-inline-flex fw-regular text-center text-md-left align-self-center">
           <span>Free Returns</span>
-          <span className="mx-2">•</span>100% Risk Free, 100% Easy{" "}
+          <span className="mx-2">•</span>100% Risk Free, 100% Easy{' '}
           <FontAwesomeIcon icon="long-arrow-alt-right" className="ml-2 mt-1" />
         </div>
         {/* <NavLink to="/" className="d-none d-md-flex text-white">
@@ -30,7 +30,7 @@ class NewsBanner extends Component {
               My Likes
             </span>
           </NavLink>
-          <NavLink to="/" className={styles.link + " text-white"}>
+          <NavLink to="/" className={styles.link + ' text-white'}>
             <span className="text">
               <FontAwesomeIcon icon="truck" className="mr-2" />
               Track An Order

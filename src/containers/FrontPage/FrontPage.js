@@ -1,18 +1,18 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 
-import Section from "../Section/Section";
+import Section from '../Section/Section';
 
-import ProductCard from "../../components/ProductCard/ProductCard";
-import ChannelCard from "../../components/ChannelCard/ChannelCard";
-import CategoryCard from "../../components/CategoryCard/CategoryCard";
+import ProductCard from '../../components/ProductCard/ProductCard';
+import ChannelCard from '../../components/ChannelCard/ChannelCard';
+import CategoryCard from '../../components/CategoryCard/CategoryCard';
 
-import ChannelOne from "../../assets/channel-1.png";
-import ChannelTwo from "../../assets/channel-2.png";
-import ChannelThree from "../../assets/channel-3.png";
-import ChannelHeaderTwo from "../../assets/channel-header-2.png";
+import ChannelOne from '../../assets/channel-1.png';
+import ChannelTwo from '../../assets/channel-2.png';
+import ChannelThree from '../../assets/channel-3.png';
+import ChannelHeaderTwo from '../../assets/channel-header-2.png';
 
-import MacBookImage from "../../assets/products/macbook.jpg";
+import MacBookImage from '../../assets/products/macbook.jpg';
 
 class FrontPage extends Component {
   componentDidMount() {
@@ -25,7 +25,7 @@ class FrontPage extends Component {
         <NavLink
           to="/blog"
           className="d-block bb-2-fog"
-          style={{ overflow: "hidden" }}
+          style={{ overflow: 'hidden' }}
         >
           <img src={ChannelHeaderTwo} className="img-fluid" alt="" />
         </NavLink>

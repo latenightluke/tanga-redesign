@@ -11,25 +11,28 @@ import ProductPage from '../containers/ProductPage/ProductPage';
 import Channel from '../containers/Channel/Channel';
 import Blog from '../containers/Blog/Blog';
 
-export default class  extends Component {
+export default class extends Component {
   render() {
     const { match } = this.props;
     return (
       <div>
-        <Container fluid className="px-0" style={{minHeight: "1200px"}}>
+        <Container fluid className="px-0" style={{ minHeight: '1200px' }}>
           <Header />
-          <div style={{height: "84px"}}></div>
+          <div style={{ height: '84px' }}></div>
           <CategoryBar />
           <Container fluid className="p-0">
             <Switch>
               <Route exact path={`${match.url}`} component={FrontPage}></Route>
-              <Route path={`${match.url}product-page`} component={ProductPage}></Route>
+              <Route
+                path={`${match.url}product-page`}
+                component={ProductPage}
+              ></Route>
               <Route path={`${match.url}deals/:id`} component={Channel}></Route>
               <Route path={`${match.url}blog`} component={Blog}></Route>
             </Switch>
           </Container>
         </Container>
-        <Footer/>
+        <Footer />
       </div>
     );
   }

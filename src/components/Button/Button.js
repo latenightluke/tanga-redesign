@@ -1,9 +1,9 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { NavLink } from "react-router-dom";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
 
-import classNames from "classnames";
-import styles from "./Button.module.css";
+import classNames from 'classnames';
+import styles from './Button.module.css';
 let cx = classNames.bind(styles);
 
 class Button extends Component {
@@ -19,7 +19,7 @@ class Button extends Component {
       <NavLink
         to={this.props.to}
         activeClassName="button-active"
-        className={buttonClasses + " " + this.props.className}
+        className={buttonClasses + ' ' + this.props.className}
         style={{ width: `${this.props.width}` }}
       >
         {this.props.children}
@@ -30,23 +30,23 @@ class Button extends Component {
 
 Button.propTypes = {
   theme: PropTypes.oneOf([
-    "primary",
-    "secondary",
-    "danger",
-    "success",
-    "info",
-    "warning",
+    'primary',
+    'secondary',
+    'danger',
+    'success',
+    'info',
+    'warning',
   ]),
   width: PropTypes.string,
-  size: PropTypes.oneOf(["sm", "md", "lg"]),
+  size: PropTypes.oneOf(['sm', 'md', 'lg']),
   to: PropTypes.string,
 };
 
 Button.defaultProps = {
-  theme: "primary",
-  width: "",
-  size: "md",
-  to: "",
+  theme: 'primary',
+  width: '',
+  size: 'md',
+  to: '',
 };
 
 export default Button;

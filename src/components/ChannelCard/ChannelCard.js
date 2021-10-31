@@ -8,8 +8,8 @@ class ChannelCard extends Component {
   render() {
     return (
       <div className="col-md col-sm-6 mb-3 mb-md-0">
-        <NavLink to={this.props.buyLink} className={styles.base + " br-sm"}>
-          <img src={this.props.image} className="img-fluid d-block" alt=""/>
+        <NavLink to={this.props.buyLink} className={styles.base + ' br-sm'}>
+          <img src={this.props.image} className="img-fluid d-block" alt="" />
         </NavLink>
       </div>
     );
@@ -19,14 +19,13 @@ class ChannelCard extends Component {
 ChannelCard.propTypes = {
   buyLink: PropTypes.string,
   image: PropTypes.string,
-  id: PropTypes.number
-}
+  id: PropTypes.number,
+};
 
 ChannelCard.defaultProps = {
-  buyLink: "",
-  image: "",
-  id: 1
-}
-
+  buyLink: '',
+  image: '',
+  id: 1,
+};
 
 export default ChannelCard;

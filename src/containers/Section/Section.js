@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
-import { Container, Row } from "reactstrap";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { Container, Row } from 'reactstrap';
 
 class Section extends Component {
   render() {
@@ -18,7 +18,7 @@ Section.propTypes = {
 };
 
 Section.defaultProps = {
-  name: "Section Name",
+  name: 'Section Name',
 };
 
 export default Section;
