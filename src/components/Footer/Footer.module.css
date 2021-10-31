@@ -1,0 +1,132 @@
+.bg-light-red {
+  background: tint(#E3404D, 10%) !important; }
+
+.bg-red {
+  background: #E3404D !important; }
+
+.bg-dark-red {
+  background: shade(#E3404D, 12%) !important; }
+
+.bg-blue {
+  background: #3498db !important; }
+
+.bg-green {
+  background: #2ecc71 !important; }
+
+.bg-orange {
+  background: #e67e22 !important; }
+
+.bg-yellow {
+  background: #f1c40f !important; }
+
+.bg-black {
+  background: #111822 !important; }
+
+.bg-carbon {
+  background: #222C3A !important; }
+
+.bg-charcoal {
+  background: #354050 !important; }
+
+.bg-pebble {
+  background: #79879A !important; }
+
+.bg-gray {
+  background: #A2ABB9 !important; }
+
+.bg-cloud {
+  background: #D0D5DC !important; }
+
+.bg-fog {
+  background: #F0F2F5 !important; }
+
+.bg-snow {
+  background: #F9FAFB !important; }
+
+.bg-white {
+  background: #FFFFFF !important; }
+
+.bg-facebook {
+  background: #3b5998 !important;
+  border-color: #3b5998 !important; }
+
+.bg-twitter {
+  background: #00b6f1 !important;
+  border-color: #00b6f1 !important; }
+
+.bg-transparent {
+  background: transparent !important; }
+
+.text-red {
+  color: #E3404D !important; }
+
+.text-blue {
+  color: #3498db !important; }
+
+.text-green {
+  color: #2ecc71 !important; }
+
+.text-orange {
+  color: #e67e22 !important; }
+
+.text-yellow {
+  color: #f1c40f !important; }
+
+.text-black {
+  color: #111822 !important; }
+
+.text-carbon {
+  color: #222C3A !important; }
+
+.text-charcoal {
+  color: #354050 !important; }
+
+.text-pebble {
+  color: #79879A !important; }
+
+.text-gray {
+  color: #A2ABB9 !important; }
+
+.text-cloud {
+  color: #D0D5DC !important; }
+
+.text-fog {
+  color: #F0F2F5 !important; }
+
+.text-snow {
+  color: #F9FAFB !important; }
+
+.text-white {
+  color: #FFFFFF !important; }
+
+.text-success {
+  color: #2ecc71 !important; }
+
+.text-info {
+  color: #1f8dd7 !important; }
+
+.text-warning {
+  color: #de8c44 !important; }
+
+.text-danger {
+  color: #dd606a !important; }
+
+.footer a {
+  text-decoration: none;
+  color: unset; }
+  .footer a:hover {
+    text-decoration: none;
+    color: unset;
+    border-bottom: 2px solid #D0D5DC; }
+  .footer a:active, .footer a.active, .footer a:focus {
+    text-decoration: none;
+    color: unset;
+    border-bottom: 2px solid #E3404D; }
+
+.footer ul {
+  list-style: none !important; }
+  .footer ul li {
+    font-weight: 400; }
+
+.footerBanner {
+  padding: 12px 0px 7px 0px; }
