@@ -5,6 +5,8 @@ After the changes, it became obvious that while Tanga has grown and evolved sign
 
 Knowing this, I took matters into my own hands and felt the need to redesign Tanga from scratch entirely, and overhaul the whole site from the ground up, in terms of branding, design, and development.
 
+[Demo Here](https://tanga-redesign.vercel.app)
+
 ## Goals
 
 1. Refresh the look and feel of Tanga to reflect the true nature of the brand in 2018.
